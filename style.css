@@ -1,4 +1,13 @@
-.fundo {
-    background-color: color(#E7E0BF)";
+body {
+    background-color: lightgreen;
 }
+#container {
+display:flex
 
+
+
+}
+.cartao{
+
+    margin: 1rem 1 rem;
+}
