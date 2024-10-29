@@ -46,6 +46,7 @@ footer p {
 
 .cartao:hover .cartao__conteudo {
     transform: rotateY(180deg);
+    backface-visibility: hidden;
 }
 .cartao__conteudo {
     background-color: var(--card-front-color);
@@ -66,12 +67,13 @@ footer p {
     backface-visibility: hidden;
 }
 
-.cartao__conteudo__pergunta,
+.cartao__conteudo__pergunta
 .cartao__conteudo__resposta {
     backface-visibility: hidden;
 }
 .cartao__conteudo__resposta {
     transform: rotateY(180deg);
+    backface-visibility: hidden;
 }
 
 .cartao__conteudo__pergunta,
